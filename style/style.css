@@ -1,6 +1,19 @@
 body {
     background-color: aquamarine;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contactInfo{
-
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+.fineDetails {
+display: flex;
+justify-content: space-evenly;
 }
