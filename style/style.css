@@ -1,33 +1,34 @@
 body {
-background-color: aquamarine;
-color:rgb(255, 255, 255);
-text-shadow: 1px 1px 3px black;
-position: relative;
+    background-color: aquamarine;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+    position: relative;
 }
 main {
     margin: 0 0 500px 0;
+    width: 100vw;
 }
 .title {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contactInfo{
-font-size: 20px;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-position: relative;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 .fineDetails {
-background-color: rgba(128, 128, 128, 0.466);
-display: grid;
-font-size: 18px;
-width: 100%;
-height: 75px;
-grid-template-columns: 1fr 1fr 1fr;
-position: fixed;
-bottom: 0;
+    background-color: rgba(128, 128, 128, 0.466);
+    display: grid;
+    font-size: 18px;
+    width: 100%;
+    height: 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0;
 }
 .aboutMe {
     display: grid;
