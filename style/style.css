@@ -4,6 +4,9 @@ color:rgb(255, 255, 255);
 text-shadow: 1px 1px 3px black;
 position: relative;
 }
+main {
+    margin: 0 0 500px 0;
+}
 .title {
 display: flex;
 justify-content: center;
@@ -34,4 +37,18 @@ bottom: 0;
 .link {
     text-decoration: none;
     color: black;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 0 15% 0;
+}
+.project-grid {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15vw;
 }
