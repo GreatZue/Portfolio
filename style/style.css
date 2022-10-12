@@ -1,19 +1,31 @@
 body {
-    background-color: aquamarine;
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 1px 3px black;
+background-color: aquamarine;
+color:rgb(255, 255, 255);
+text-shadow: 1px 1px 3px black;
+position: relative;
 }
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .contactInfo{
+font-size: 20px;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
+position: relative;
 }
 .fineDetails {
-display: flex;
-justify-content: space-evenly;
+background-color: rgba(128, 128, 128, 0.466);
+display: grid;
+font-size: 18px;
+width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+position: fixed;
+bottom: 0;
+}
+.aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
